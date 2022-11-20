@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #000000;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* --HEADER-- */
+
+.Header-container {
+    background-color: white;
+    padding: 25px;
+
+}
+
+.header___offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.header__offer-announcement {
+    background-color: #E50914;
+    color: white;
+    border-radius: 15px;
+    text-transform: uppercase;
+    padding: 5px 7px;
+    font-size: 13px;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.header__offer-text {
+    margin-right: 5px;
+}
+
+.header__offer-text--bold {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.header__findoutmore {
+    color: #4496F0;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+/* --SUB-HEADER-- */
+
+.sub-header {
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.sub-header__image {
+    width: 100%;
+}
+
+.sub-header__image-logo {
+    width: 13%;
+}
+
+
+
+.sub-header__language-button {
+    border: 1px solid white;
+    margin-right: 30px; 
+   
+}
+
+.buton-selector, .buton-selector--footer {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.options {
+    color: black;
+    background-color: #A6A6A6;
+    border: none;
+    border-color: #A6A6A6;
+    font-weight: lighter;
+    
+}
+
+.sub-header_sign-in-button {
+    background-color: #E50914;
+    color: white;
+    margin-right: 50px;
+    cursor:pointer;
+}
+
+.button-sub-header {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+/* --BANNER-- */
+
+.banner-container__banner {
+    width: 100%;
+    position: relative;
+    top: -122px;
+    border-bottom: 10px solid #222222;
+    height: 80vh;
+    background-image: url("../../images/Netflix-Background.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+    filter: opacity(50%); 
+    /* z-index: -100; */
+    
+}
+
+.banner__texts {
+    color: white;
+    position: absolute;
+    top:30%;
+    left: 30%;
+    z-index: 7888;
+    text-align: center;
+    /* filter: opacity(100%); */
+    /* z-index: 2; */
+}
+
+.banner-container__big-title {
+    font-size: 70px;
+    width: 70%;
+    margin: 20px 0;
+}
+
+.banner-container__big-title--medium {
+    font-size: 30px;
+    width: 70%;
+    margin: 30px 0;
+}
+
+.banner-container__big-title--small {
+    font-size: 20px;
+    width: 70%;
+}
+
+.suscribe-container {
+    margin: 20px 0;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.suscribe-container__text-field {
+    height: 70px;
+    width: 500px;
+    border: none;
+    font-size: 17px;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+
+
+.suscribe-container__button {
+    height: 70px;
+    width: 250px;
+    background-color: #E50914;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+
+/* --LOOK NETFLIX SECTION */
+
+.look-netflix-container {
+    color: white;
+    border-bottom: 10px solid #222222;
+    padding-bottom: 80px;
+}
+
+.look-netflix-container__card {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.look-netflix-container__card-texts {
+    text-align: left;
+}
+
+.look-netflix-container__card-texts--big {
+    font-size: 60px;
+    margin: 30px 5.9em;
+    width: 60%;
+}
+
+.look-netflix-container__card-texts--medium {
+    font-size: 30px;
+    margin: 30px 11.7em;
+    width: 45%;
+}
+
+.look-netflix-container__card-images{
+    position: relative;
+    width: 100%;
+}
+
+.look-netflix-container__image {
+    position: absolute;
+    left: 0px;
+    right: 28em;
+    top: 0;
+    bottom: 90px;
+    margin: auto;
+}
+
+.look-netflix-container__gif {
+    margin-left: 79px;
+    width: 415px;
+    height: 240px;
+}
+
+/* --WHENEVER NETFLIX CONTAINER-- */
+
+.left, .left-sub {
+    color: white;
+    margin: 30px 5.9em;
+    width: 60%;
+}
+
+.whenever-netflix-container {
+    padding: 80px 0 200px 80px;
+    position: relative;
+    border-bottom: 10px solid #222222; 
+    
+}
+
+
+
+.whenever-netflix-container__card {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: auto;
+}
+
+.whenever-netflix-container__video {
+    margin-left: 275px;
+    height: 200px;
+    
+}
+
+.whenever-netflix-container__image {
+    /* z-index: 9999; */
+    position: absolute;
+    margin: auto;
+    top: 30px;
+    left: 250px;
+}
+
+.whenever-netflix-container__card-images {
+    width: 100%;
+ }
+
+.whenever-netflix-container__card-texts {
+    width: 100%;
+    text-align: left;
+    
+}
+
+.whenever-netflix-container__card-texts--big {
+    width: 100%;
+    font-size: 60px;
+    padding-top: 100px;
+    margin: 0 0 30px 0;
+    
+}
+
+.whenever-netflix-container__card-texts--medium {
+    font-size: 30px;
+    width: 70%;
+    margin: 0;
+    
+}
+
+/* --NETFLIX-YOUG SECTION */
+
+.netflix-young-container {
+    color: white;
+    border-bottom: 10px solid #222222;
+    padding: 80px 200px;
+}
+
+.netflix-young-container__card {
+    display: flex;
+    width: 100%;
+    margin: auto;
+
+}
+
+.netflix-young-container__card-texts {
+    width: 50%;
+    padding-left: 90px ;
+}
+
+
+.netflix-young-container__card-texts--big { 
+    font-size: 60px;
+    margin: 30px 1em;
+    width: 95%;
+    padding-top: 50px;
+    
+}
+
+.netflix-young-container__card-texts--medium {
+    font-size: 25px;
+    margin-left: 60px;
+    width: 70%;     
+}
+
+.netflix-young-container__card-images {
+    /* padding: 80px 500px 0 80px; */
+    margin-left: 0px;
+}
+
+.netflix-young-container__image {
+    width: 600px;
+}
+
+/* --DOWNLOAD SECTION */
+
+.download-container__card-images {
+    padding: 60px 1px 100px 200px;
+    width: 100%;
+    
+}
+
+.download-container__card {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    border-bottom: 10px solid #222222;
+}
+
+.download-container__card-texts--big {
+    font-size: 55px;
+    width: 75%;
+    padding:80px 0px 0px 20px;
+    margin-left: 10px;
+    
+}
+
+.download-container__card-texts--medium {
+    font-size: 30px;
+    width:60%;
+    padding-right: 105px;
+    margin-left: 29px;
+}
+
+.download-container__image-mobile {
+    width: 505px;
+    height: 378px;
+    margin-left: 65px;
+}
+
+.dowload-item {
+    display: flex;
+    border: 2px solid #404040;
+    background-color: #000000;
+    border-radius: 15px;
+    align-items: center;
+    height: 104px;
+    width: 330px;
+    position: absolute;
+    top: 310px;
+    left: 350px;
+    
+}
+
+.download-container__serie-title {
+    color: white;
+}
+
+.download-container__image {
+    width: 70px;
+    padding-left:10px;
+    height: 85px;
+    
+}
+
+.download-container__gif {
+    width: 50px
+}
+
+.download-container__serie-title {
+    padding-left: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.download-container__download-text {
+    color: #4496F0;
+    padding-left: 20px;
+    font-size: 15px;
+
+}
+
+.download-container__image-texts {
+    flex-direction: column;
+    
+   
+}
+
+/* --FOOTER */
+
+.container-footer {
+    padding: 80px 500px;
+}
+
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    line-height: 2.59;
+    font-weight: 300;
+    color: #686868;
+    font-size: 13px;
+}
+
+.container-footer__question {
+    color: #686868;
+    width: 100%;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.button-sub-header {
+    flex-direction: column;
+}
+
+.language-button {
+    width: 15%;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 18px;
+    border-color: #686868;
+   
+}
+
+.options-footer, .buton-selector--footer {
+    color: #686868;
+    font-size: 16px;
+    text-align: center;
+}
+
+.gray-globe {
+    color: #686868;
+    padding-top: 4px;
+}
+
+.button-sub-header {
+    display: flex;
+    flex-direction: row;
+}
