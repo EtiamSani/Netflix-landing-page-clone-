@@ -9,5 +9,5 @@
 
 ### **Le screen du projet :**
 
-![Screen](../images/Capture-ecran-projet-netflix.png)
+![Screen](https://raw.githubusercontent.com/EtiamSani/Netflix-landing-page-clone-/master/images/Capture-ecran-projet-netflix.PNG)
 
